@@ -1,0 +1,123 @@
+body{
+    background: #fff;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.js-hidden{
+    visibility: hidden;
+}
+
+.search-form {
+    border-bottom: 2px solid #aaa;
+    background: #abc4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 30px 0;
+}
+
+.search-input{
+    border: none;
+    border-radius: 15px;
+    margin:10px;
+    padding: 15px 30px;
+}
+    
+.search-input:focus, 
+.search-input:hover {
+    outline: none;
+    border: 1px solid rgb(18, 37, 162);
+}
+
+.submit-button {
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: rgb(46, 72, 246);
+    margin:10px;
+    padding: 15px 30px;
+} 
+
+.submit-button:hover {
+    background-color: rgb(18, 37, 162);
+    font-size: 16px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px;
+}
+
+img{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.photo-card {
+    background-color: #abc4f9;
+    border-radius: 15px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 470px;
+    padding-top: 15px;
+}
+
+.photo-card:hover {
+    cursor: pointer;
+    box-shadow: 15px 15px 30px #bebebe,
+             -15px -15px 30px #ffffff;
+  transition: 0.2s ease-in-out;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+  
+.info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    color: black;
+  }
+  
+.load-more {
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #abc4f9;
+    border: rgb(46, 72, 246);
+    margin:10px;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 15px auto;
+  }
+  
+.load-more:hover {
+    background-color: rgb(18, 37, 162);
+    font-size: 16px;
+  }
+
+  
